@@ -7,10 +7,14 @@ table {
   border: 1px solid #000000;
   border-collapse: collapse;
 }
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
+  border: 1px solid black;
+}
 td {
   width: 50px;
   height: 50px;
   text-align: center;
+  padding: 0;
 }
 
 tr:nth-child(odd) > td:nth-child(even) {

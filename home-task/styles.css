@@ -13,14 +13,25 @@ td {
   text-align: center;
 }
 
-/* table tr:nth-child(1) {
+table tr:nth-child(1) {
   background-color: #ffffff;
-} */
+}
+
+table tr:nth-child(10) {
+  background-color: #ffffff;
+}
+
+table td:nth-child(1) {
+  background-color: #ffffff;
+}
+table td:nth-child(10) {
+  background-color: #ffffff;
+}
 
 table tr:nth-child(odd) td:nth-child(odd) {
   background-color: #000000;
 }
 
-table tr:nth-child(even) td:nth-child(even) {
+table td:nth-child(even) td:nth-child(even) {
   background-color: #000000;
 }
